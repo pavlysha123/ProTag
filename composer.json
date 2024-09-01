@@ -1,0 +1,33 @@
+{
+  "name": "pavlysha123/ProTag",
+  "description": "PHP HTML abstraction, Create html elements",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "homepage": "https://github.com/pavlysha123/ProTag",
+  "authors": [
+    {
+      "name": "Khairedinov P.A.",
+      "email": "pavel.khairedinov@yandex.ru",
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "tests": "php vendor/bin/codecept run"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require-dev": {
+    "codeception/codeception": "^4.1",
+    "codeception/module-phpbrowser": "^1.0.0",
+    "codeception/module-asserts": "^1.0.0"
+  }
+}
